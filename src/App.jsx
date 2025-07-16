@@ -15,7 +15,7 @@ import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Farm-Nation/">
       <ToastContainer position="top-right" autoClose={1000} />
 
       <Navbar />
